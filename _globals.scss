@@ -1,0 +1,66 @@
+html {
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lexend Deca", sans-serif;
+	font-size: $font-sm;
+	font-weight: 400;
+	line-height: 1.5;
+	color: $sTWMainP;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Inter", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: $font-lg;
+	color: $white;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: $font-md;
+	color: $white;
+}
+
+h3 {
+	font-family: "Lexend Deca", sans-serif;
+	font-size: $font-xs;
+	color: $sTWS;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+span {
+	color: $softViolet;
+}
+
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+	background-color: $veryDarkBlue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

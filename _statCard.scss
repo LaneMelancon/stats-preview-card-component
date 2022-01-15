@@ -1,0 +1,53 @@
+.card {
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: row;
+
+	@include breakpoint-up(large) {
+		width: 69.375rem;
+		height: 27.875rem;
+	}
+
+	&__container {
+		padding: 5rem 8rem 3rem 5rem;
+	}
+
+	&__text {
+		background-color: $darkDesaturatedBlue;
+
+		@include breakpoint-up(large) {
+			width: 35.625rem;
+			height: 27.875rem;
+		}
+	}
+
+	&__textMain {
+		h1 {
+			@include breakpoint-up(large) {
+				margin-bottom: 2rem;
+			}
+		}
+
+		p {
+			@include breakpoint-up(large) {
+				margin-bottom: 4rem;
+			}
+		}
+	}
+
+	&__stats {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__image {
+		@include breakpoint-up(large) {
+			width: 33.75rem;
+			height: 27.875rem;
+			background-image: url("/images/image-header-desktop.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+	}
+}
