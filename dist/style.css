@@ -161,7 +161,7 @@ span {
 
 @media (min-width: 64em) {
   .card__textMain p {
-    padding-right: 1.875rem;
+    padding-right: 2.875rem;
     margin-bottom: 4rem;
   }
 }
@@ -204,7 +204,7 @@ span {
           order: 1;
   width: 20.4375rem;
   height: 15rem;
-  background-image: url("/images/image-header-mobile.jpg");
+  background-image: url("images/image-header-mobile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -228,7 +228,7 @@ span {
             order: 2;
     width: 33.75rem;
     height: 27.875rem;
-    background-image: url("/images/image-header-desktop.jpg");
+    background-image: url("images/image-header-desktop.jpg");
   }
 }
 /*# sourceMappingURL=style.css.map */
