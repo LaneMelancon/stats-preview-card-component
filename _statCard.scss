@@ -64,9 +64,9 @@
 			padding-right: 2rem;
 		}
 		.stat__item {
-			@include breakpoint-down(small) {
+			@include breakpoint-down(medium) {
 				&:not(:last-child) {
-					margin-bottom: 2.3125rem;
+					margin-bottom: 1.3125rem;
 				}
 			}
 		}
@@ -77,7 +77,7 @@
 		order: 1;
 		width: 20.4375rem;
 		height: 15rem;
-		background-image: url("images/image-header-mobile.jpg");
+		background-image: url("/images/image-header-mobile.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;
@@ -96,7 +96,7 @@
 			order: 2;
 			width: 33.75rem;
 			height: 27.875rem;
-			background-image: url("images/image-header-desktop.jpg");
+			background-image: url("/images/image-header-desktop.jpg");
 		}
 	}
 }

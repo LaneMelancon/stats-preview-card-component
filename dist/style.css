@@ -191,9 +191,9 @@ span {
   }
 }
 
-@media (max-width: 39.9375em) {
+@media (max-width: 63.9375em) {
   .card__stats .stat__item:not(:last-child) {
-    margin-bottom: 2.3125rem;
+    margin-bottom: 1.3125rem;
   }
 }
 
@@ -204,7 +204,7 @@ span {
           order: 1;
   width: 20.4375rem;
   height: 15rem;
-  background-image: url("images/image-header-mobile.jpg");
+  background-image: url("/images/image-header-mobile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -228,7 +228,7 @@ span {
             order: 2;
     width: 33.75rem;
     height: 27.875rem;
-    background-image: url("images/image-header-desktop.jpg");
+    background-image: url("/images/image-header-desktop.jpg");
   }
 }
 /*# sourceMappingURL=style.css.map */
